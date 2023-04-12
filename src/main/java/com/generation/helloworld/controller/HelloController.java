@@ -10,10 +10,15 @@ public class HelloController {
 	
 	@GetMapping
      public String hello () {
-    	 return "<b>Hello Turma 62! </b>";
+    	 return "<b> Hello World! </b>";
      }
-	@GetMapping("/nome")
-	 public String meuNome () {
-    	 return "<b> Ana Vieira! </b>";
+	@GetMapping("/bsm")
+	 public String bsms () {
+    	 return "<b> Mentalidade de Crescimento <br /> Persistência <br /> Responsabilidade Pessoal <br /> Orientação ao Futuro <br /> Comunicação <br /> Orientação ao Detalhe<br /> Proatividade <br /> Trabalho em Equipe <br /> Gestão de tempo </b>";
      }
+	@GetMapping("/objetivo")
+	public String objetivo () {
+   	 return "<b> Meus objetivos da semana são: <br />Persistência <br /> Gestão de tempo <br /> Comunicação </b>";
+    }
+
 }
